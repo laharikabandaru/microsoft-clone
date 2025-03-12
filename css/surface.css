@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+    text-align: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.logo img {
+    height: 25px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+/* Icons */
+.icons {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+}
+
+/* Hero Section */
+.hero {
+    margin-top: 50px;
+}
+
+.hero h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero .blue {
+    color: blue;
+}
+
+.hero .brown {
+    color: brown;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+    width: 50%;
+    margin: 10px auto;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 20px;
+}
+
+.primary {
+    background: #003087;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
